@@ -20,46 +20,46 @@ body {
     padding: 10px;
   }
   
-  .user-info {
+  .usuario-info {
     display: flex;
     align-items: center;
     gap: 10px;
   }
   
-  .user-avatar {
+  .avatar {
     width: 40px;
     height: 40px;
     border-radius: 50%;
   }
   
-  .username {
+  .usuario {
     font-size: 0.9em;
     color: gray;
   }
   
-  .options {
+  .opciones {
     font-size: 20px;
     cursor: pointer;
   }
   
-  .post-image {
+  .imagen {
     width: 100%;
     height: auto;
   }
   
-  .post-actions {
+  .acciones {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 0 10px;
     font-size: 20px;
   }
   
-  .post-actions span {
+  .acciones span {
     margin-right: 10px;
     cursor: pointer;
   }
   
-  .bookmark {
+  .marco {
     margin-left: auto;
   }
   
@@ -68,7 +68,7 @@ body {
     font-size: 0.9em;
   }
   
-  .post-caption {
+  .comentarios {
     padding: 0 10px 10px 10px;
     font-size: 0.9em;
     color: #333;
