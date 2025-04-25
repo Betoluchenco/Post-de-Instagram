@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+  }
+  
+  .insta-post {
+    background: white;
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .username {
+    font-size: 0.9em;
+    color: gray;
+  }
+  
+  .options {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0 10px;
+    font-size: 20px;
+  }
+  
+  .post-actions span {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .bookmark {
+    margin-left: auto;
+  }
+  
+  .likes {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  
+  .post-caption {
+    padding: 0 10px 10px 10px;
+    font-size: 0.9em;
+    color: #333;
+  }
+  
